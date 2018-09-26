@@ -1,5 +1,8 @@
 def display_board
-  puts "A Tic Tac Toe Board"
-  vertical =  "   |   |   "
-  horizontal = "-----------"
+  v =  "   |   |   "
+  h = "-----------"
+  puts "#{v}\n#{h}\n#{v}\n#{h}\n#{v}"
 end
+
+puts "A Tic Tac Toe Board"
+display_board
